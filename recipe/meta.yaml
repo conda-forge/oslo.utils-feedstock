@@ -3,6 +3,7 @@
 {%set compress_type = "tar.gz" %}
 {%set hash_type = "sha256" %}
 {%set hash_val = "b8834e720b8cb7f820ebcb90611a90df1d0ebc8be7cbccce13a559059accc650" %}
+{%set build_num = "0" %}
 
 package:
   name: {{ name }}
@@ -14,7 +15,7 @@ source:
   {{ hash_type }}: {{ hash_val }}
 
 build:
-  number: 0
+  number: {{ build_num }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
@@ -49,10 +50,10 @@ test:
 
 about:
   home: http://docs.openstack.org/developer/oslo.utils/
-  license: Apache 2.0
   license_file: LICENSE
+  license: Apache 2.0
   license_family: Apache
-  summary: 'Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling.'
+  summary: Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling.
   doc_url: http://docs.openstack.org/developer/oslo.utils/
   dev_url: http://git.openstack.org/cgit/openstack/oslo.utils
 
