@@ -11,6 +11,18 @@ Summary: Support for common utility type functions, such as encoding, exception 
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.utils-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.utils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.utils-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.utils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-utils-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.utils/badges/version.svg)](https://anaconda.org/conda-forge/oslo.utils)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.utils/badges/downloads.svg)](https://anaconda.org/conda-forge/oslo.utils)
+
 Installing oslo.utils
 =====================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.utils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.utils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.utils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.utils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-utils-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.utils/badges/version.svg)](https://anaconda.org/conda-forge/oslo.utils)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/oslo.utils/badges/downloads.svg)](https://anaconda.org/conda-forge/oslo.utils)
 
 
 Updating oslo.utils-feedstock
