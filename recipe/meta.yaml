@@ -1,21 +1,21 @@
-{%set name = "oslo.utils" %}
-{%set version = "3.23.0" %}
-{%set compress_type = "tar.gz" %}
-{%set hash_type = "sha256" %}
-{%set hash_val = "b8834e720b8cb7f820ebcb90611a90df1d0ebc8be7cbccce13a559059accc650" %}
-{%set build_num = "0" %}
+{% set name = "oslo.utils" %}
+{% set version = "3.23.0" %}
+{% set bundle = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash = "b8834e720b8cb7f820ebcb90611a90df1d0ebc8be7cbccce13a559059accc650" %}
+{% set build = 1 %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.{{ compress_type }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ compress_type }}
-  {{ hash_type }}: {{ hash_val }}
+  fn: {{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  {{ hash_type }}: {{ hash }}
 
 build:
-  number: {{ build_num }}
+  number: {{ build }}
   script: python setup.py install --single-version-externally-managed --record=record.txt
 
 requirements:
