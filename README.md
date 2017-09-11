@@ -14,9 +14,7 @@ Summary: Support for common utility type functions, such as encoding, exception 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.utils-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/oslo.utils-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/oslo.utils-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/oslo.utils-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/oslo-utils-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/oslo.utils-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/oslo.utils-feedstock)
 
 Current release info
 ====================
