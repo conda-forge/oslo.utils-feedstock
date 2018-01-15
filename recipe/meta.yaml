@@ -28,7 +28,7 @@ requirements:
   run:
     - python
     - pbr !=2.1.0,>=2.0.0
-    - six >=1.9.0
+    - six >=1.10.0
     - funcsigs >=1.0.0  # [py2k]
     - iso8601 >=0.1.11
     - oslo.i18n >=3.15.3
