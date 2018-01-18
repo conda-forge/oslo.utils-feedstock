@@ -1,8 +1,8 @@
 {% set name = "oslo.utils" %}
-{% set version = "3.34.0" %}
+{% set version = "3.35.0" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "9446aaf40cc4633c9c92f31e33b3e9de0c67dcdaa402bd4e414940f6539fc59f" %}
+{% set hash = "7d7900ceae96c054cf190f6a157dcdb7e168a6cf26660de7302540af95f729aa" %}
 {% set build = 0 %}
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   {{ hash_type }}: {{ hash }}
 
 build:
@@ -50,13 +50,13 @@ test:
     - oslo_utils.importutils
 
 about:
-  home: http://docs.openstack.org/developer/oslo.utils/
+  home: https://docs.openstack.org/developer/oslo.utils/
   license_file: LICENSE
   license: Apache 2.0
   license_family: Apache
   summary: Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling.
-  doc_url: http://docs.openstack.org/developer/oslo.utils/
-  dev_url: http://git.openstack.org/cgit/openstack/oslo.utils
+  doc_url: https://docs.openstack.org/developer/oslo.utils/
+  dev_url: https://git.openstack.org/cgit/openstack/oslo.utils
 
 extra:
   recipe-maintainers:
