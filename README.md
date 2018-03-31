@@ -1,7 +1,7 @@
 About oslo.utils
 ================
 
-Home: http://docs.openstack.org/developer/oslo.utils/
+Home: https://docs.openstack.org/developer/oslo.utils/
 
 Package license: Apache 2.0
 
