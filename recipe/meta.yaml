@@ -34,6 +34,7 @@ requirements:
     - netifaces >=0.10.4
     - debtcollector >=1.2.0
     - pyparsing >=2.1.0
+    - packaging >=20.4
 
 test:
   imports:
@@ -42,7 +43,6 @@ test:
     - oslo_utils.eventletutils
     - oslo_utils.excutils
     - oslo_utils.fileutils
-    - oslo_utils.fixture
     - oslo_utils.importutils
 
 about:
