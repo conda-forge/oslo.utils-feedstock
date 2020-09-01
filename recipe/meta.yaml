@@ -1,7 +1,7 @@
 {% set name = "oslo.utils" %}
-{% set version = "4.4.0" %}
+{% set version = "4.5.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "1603e1b0e3d1def57c51f4d5c82871ea05e221f7dac5d4f6eeb56e6cb19284fb" %}
+{% set hash = "d61b0d26194b28485436455358cc99b41b8ef6e351645bf528da4407fa4d093e" %}
 
 package:
   name: {{ name|lower }}
@@ -35,6 +35,7 @@ requirements:
     - debtcollector >=1.2.0
     - pyparsing >=2.1.0
     - packaging >=20.4
+    - pyyaml
 
 test:
   imports:
