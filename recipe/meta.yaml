@@ -1,7 +1,7 @@
 {% set name = "oslo.utils" %}
-{% set version = "4.10.0" %}
+{% set version = "4.11.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "9646e6570ed08a79f21b03acfb60d32a3ac453d76304f8759b1211a59ce372cb" %}
+{% set hash = "6ea03d3c5c917c98a2ecb27a7c923e424027592fc0f26886fb4f7eaf24c983f2" %}
 
 package:
   name: {{ name|lower }}
