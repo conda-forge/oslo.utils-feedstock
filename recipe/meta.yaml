@@ -13,8 +13,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  number: 1
+  script: "{{ PYTHON }} -m pip install . -vv"
   noarch: python
 
 requirements:
@@ -44,6 +44,10 @@ test:
     - oslo_utils.excutils
     - oslo_utils.fileutils
     - oslo_utils.importutils
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://docs.openstack.org/developer/oslo.utils/
@@ -56,6 +60,5 @@ about:
 
 extra:
   recipe-maintainers:
-    - pmlandwehr
     - anguslees
     - tschoonj
