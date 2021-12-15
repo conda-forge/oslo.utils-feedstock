@@ -44,6 +44,10 @@ test:
     - oslo_utils.excutils
     - oslo_utils.fileutils
     - oslo_utils.importutils
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://docs.openstack.org/developer/oslo.utils/
