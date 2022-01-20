@@ -1,7 +1,7 @@
 {% set name = "oslo.utils" %}
-{% set version = "4.12.0" %}
+{% set version = "4.12.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "37aa1ee2c6cd8f3933912dd4323cbf7cd2d141e6dedb3debb764e491a9c9cf4d" %}
+{% set hash = "cf3121c76fe3c2963ed563a8ebc3c9fd3bc3cba5d44fbe8aecb5407d430c3092" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
   sha256: {{ hash }}
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
 requirements:
