@@ -19,13 +19,12 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - setuptools
     - pbr !=2.1.0,>=2.0.0
 
   run:
-    - python >=3.6
-    - pbr !=2.1.0,>=2.0.0
+    - python >=3.8
     - iso8601 >=0.1.11
     - oslo.i18n >=3.15.3
     - pytz >=2013.6
@@ -34,7 +33,6 @@ requirements:
     - debtcollector >=1.2.0
     - pyparsing >=2.1.0
     - packaging >=20.4
-    - pyyaml
 
 test:
   imports:
