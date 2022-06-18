@@ -33,6 +33,7 @@ requirements:
     - debtcollector >=1.2.0
     - pyparsing >=2.1.0
     - packaging >=20.4
+    - pyyaml
 
 test:
   imports:
