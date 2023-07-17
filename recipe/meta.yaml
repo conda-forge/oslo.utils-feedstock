@@ -33,6 +33,8 @@ requirements:
     - pyparsing >=2.1.0
     - packaging >=20.4
     - tzdata >=2022.4
+    # oslo_utils.fileutils apparently requires pyyaml
+    - pyyaml
 
 test:
   imports:
