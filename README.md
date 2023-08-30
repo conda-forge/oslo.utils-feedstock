@@ -1,11 +1,11 @@
-About oslo.utils
-================
+About oslo.utils-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.utils-feedstock/blob/main/LICENSE.txt)
 
 Home: https://docs.openstack.org/developer/oslo.utils/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oslo.utils-feedstock/blob/main/LICENSE.txt)
 
 Summary: Support for common utility type functions, such as encoding, exception handling, string manipulation, and time handling.
 
