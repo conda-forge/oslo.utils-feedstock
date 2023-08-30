@@ -34,6 +34,7 @@ requirements:
     - pyparsing >=2.1.0
     - packaging >=20.4
     - pyyaml
+    - tzdata >=2022.4
 
 test:
   imports:
