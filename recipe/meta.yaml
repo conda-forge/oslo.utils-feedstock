@@ -19,22 +19,21 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python >=3.9
     - setuptools
     - pbr !=2.1.0,>=2.0.0
 
   run:
-    - python >=3.8
+    - python >=3.9
     - iso8601 >=0.1.11
     - oslo.i18n >=3.15.3
-    - pytz >=2013.6
-    - netaddr >=0.7.18
-    - netifaces >=0.10.4
+    - netaddr >=0.10.0
     - debtcollector >=1.2.0
     - pyparsing >=2.1.0
     - packaging >=20.4
-    - pyyaml
     - python-tzdata >=2022.4
+    - PyYAML >=3.13
+    - psutil >=3.2.2
 
 test:
   imports:
