@@ -1,7 +1,7 @@
 {% set name = "oslo.utils" %}
-{% set version = "8.0.0" %}
+{% set version = "9.1.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "906fcf1c86f671f224c1925b2a8d375a0539143fb6158b13e202a79dd8e6c694" %}
+{% set hash = "01c3875e7cca005b59465c429f467113b5f4b04211cbd534c9ac2f152276d3b3" %}
 
 package:
   name: {{ name|lower }}
@@ -9,11 +9,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://files.pythonhosted.org/packages/11/c0/c78c13a54bd920baf2e756e9b8f92be320b311e83c3998b69f7b84da29f9/oslo.utils-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/d9/ec/9f12c8ded6eb7ba0774ea4a0e03bfe6cd35fea4cbc944a826c751bb49500/oslo_utils-{{ version }}.tar.gz
   sha256: {{ hash }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   noarch: python
 
